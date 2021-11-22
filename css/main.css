@@ -6,12 +6,6 @@
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  /* outline: 2px solid tomato; */
-}
-
-.footer-flex {
-  display: flex;
-  align-items: baseline;
 }
 
 .page {
@@ -107,9 +101,14 @@ img {
 .contact {
   display: flex;
   margin-left: auto;
+  list-style: none;
 }
 
-.contact .item + .item {
+.contact-list {
+  margin: auto;
+}
+
+.contact .item {
   margin-left: 50px;
 }
 
@@ -348,6 +347,11 @@ img {
 
 .address-style {
   font-style: normal;
+}
+
+.footer-flex {
+  display: flex;
+  align-items: baseline;
 }
 
 /* Герой */
@@ -894,7 +898,6 @@ img {
 
 .team-flex {
   display: flex;
-  margin-left: -30px;
 }
 
 .team-flex .item {

@@ -1,11 +1,18 @@
 /* контакты */
-.contact {
+  .contact {
     display: flex;
     margin-left: auto;
+    list-style: none;
+   
   }
-  
-  .contact .item + .item {
+
+  .contact-list {
+    margin: auto;
+  }
+
+  .contact .item {
     margin-left: 50px;
+    
   }
   
   .contact-link {
