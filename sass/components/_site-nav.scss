@@ -12,6 +12,10 @@
   
   .site-nav__item{
     margin-left: 50px;
+
+    &:first-child{
+      margin-left: 0;
+    }
   }
   
   .site-nav__link{
