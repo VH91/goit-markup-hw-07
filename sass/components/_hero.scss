@@ -37,11 +37,12 @@
     letter-spacing: 0.06em;
     cursor: pointer;
     align-items: center;
-  }
-  .hero .hero-button:hover,
-  .hero .hero-button:focus {
+    &:hover,
+    &:focus {
     background: #188ce8;
   }
+  }
+  
   /* Фон Героя */
   .overlay {
     max-width: 1600px;
