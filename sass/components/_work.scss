@@ -6,6 +6,7 @@
   }
   
   .work-title {
+    display: block;
     margin-bottom: 50px;
   
     font-weight: 700;
@@ -16,15 +17,24 @@
   }
   .work-list {
     display: flex;
-    margin-left: -30px;
+   justify-content: center;
+   
+ 
+
   }
-  .work-list .item {
-    flex-basis: calc(100% / 3 - 30px);
-    margin-left: 30px;
+  .work__item {
+   margin-left: 30px;
+   
+   &:first-child{
+     margin-left: 0;
+   }
+
+
   }
   .card-thumb {
     display: block;
     position: relative;
+    
   }
   
   .card-box {
@@ -54,3 +64,4 @@
     letter-spacing: 0.03em;
     text-align: center;
   }
+  

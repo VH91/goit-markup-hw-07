@@ -1,10 +1,10 @@
 /* Наши Проекты-Портфолио */
 
-.portfolio-list .portfolio-title {
+ .portfolio-title {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
-    letter-spacing: 0.06em;
+      margin-bottom: 4px;
   }
   .portfolio-list {
     display: flex;
@@ -39,9 +39,7 @@
     line-height: 1.87;
     letter-spacing: 0.03em;
   }
-  .portfolio-title {
-    margin-bottom: 4px;
-  }
+
   
   .portfolio-card {
     padding: 20px 24px 20px 24px;

@@ -3,7 +3,14 @@
 @import './base/reset';
 @import './base/visually-hidden';
 
+
+//UTILS
+@import './utils/placeholder';
+@import './utils/variables';
+
+
 //COMPONENTS
+@import './components/site-nav';
 @import './components/clients';
 @import './components/contacts';
 @import './components/features';
@@ -14,7 +21,6 @@
 @import './components/page-header';
 @import './components/portfolio-filtr';
 @import './components/portfolio-projects';
-@import './components/site-nav';
 @import './components/social-links';
 @import './components/team';
 @import './components/work';
